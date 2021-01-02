@@ -2,8 +2,8 @@ var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
 r = 30;
 A = Math.Pi * r * r / 10000;
-g = 9.81;
-m = 0.5;
+grav = 9.81;
+mass = 0.5;
 width = 800;
 height = 800;
 
@@ -20,7 +20,7 @@ function Circle (x,y,ay,vy,fy,radius) {
   this.update = function()
   {
     // weight force
-    this.fy += g * m; 
+    this.fy += grav* mass; 
     // air resistance force
     this.fy += -1 *0.5 * 1.20*0.44*this.vy**2; 
     // y-component of vector
