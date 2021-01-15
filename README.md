@@ -6,3 +6,6 @@ Gravity: http://buildnewgames.com/gamephysics/
 
 Collisions:https://www.youtube.com/watch?v=XD-7anXSOp0
 
+View demos here:
+Gravity: https://codepen.io/garffrag/full/eYJRBOj
+Collisions: https://codepen.io/garffrag/full/rNxwWBZ
